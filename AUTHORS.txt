@@ -1,0 +1,15 @@
+# Copyright holder
+copyright: 2022 EUMETSAT
+license: LICENSE.txt
+
+# List of development authors
+Olivier Membrive (Météo-France)
+
+# List of contributory authors
+Cécile Hernandez (Météo-France)
+Stéphane Saux Picart (Météo-France)
+Ben Loveday (Innoflair UG/EUMETSAT)
+Hayley Evers-King (EUMETSAT)
+
+# Support
+For all queries on this software package, please contact ops@eumetsat.int
