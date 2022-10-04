@@ -14,5 +14,4 @@ dependencies:
   - conda-forge::ipykernel
   - conda-forge::cmocean
   - conda-forge::cmcrameri
-  - conda-forge::paramiko
   - conda-forge::requests
