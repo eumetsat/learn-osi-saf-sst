@@ -17,6 +17,7 @@ All company, product and service names used in this website are for identificati
 purposes only.
 
 ## Authors
+
 * [**Olivier Membrive**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
 * [**Cécile Hernandez**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
 * [**Stéphane Saux Picart**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
@@ -31,6 +32,7 @@ You will require `Jupyter Notebook` to run this code. We recommend that you inst
 the latest [Anaconda Python distribution](https://www.anaconda.com/) for your 
 operating system. Anaconda Python distributions include Jupyter Notebook.
 
+
 ## Dependencies
 
 |item|version|licence|package info|
@@ -38,6 +40,7 @@ operating system. Anaconda Python distributions include Jupyter Notebook.
 |python|3.9|PSF|https://docs.python.org/3/license.html|
 |netcdf4|1.5.8|MIT|https://anaconda.org/conda-forge/netcdf4|
 |matplotlib|3.5.1|PSFL|https://matplotlib.org/stable/users/project/license.html|
+|xarray|0.21.1|Apache-2.0|https://anaconda.org/conda-forge/xarray|
 |cartopy|0.20.2|LGPL-3|https://scitools.org.uk/cartopy/docs/latest/copyright.html|
 |notebook|6.4.12|BSD-3|https://anaconda.org/conda-forge/notebook|
 |jupyter_contrib_nbextensions|0.5.1|BSD-3|https://anaconda.org/conda-forge/jupyter_contrib_nbextensions|
@@ -94,6 +97,7 @@ packages.
 To create the environment, run:
 
 `conda env create -f environment.yml`
+
 
 This will create a Python environment called **cmts_learn_osi_saf_sst**. The environment 
 won't be activated by default. To activate it, run:
