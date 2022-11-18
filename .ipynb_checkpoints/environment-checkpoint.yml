@@ -3,16 +3,24 @@
 name: cmts_learn_osi_saf_sst
 channels:
   - conda-forge
+  - cmts
+  - eumetsat
 dependencies:
   - conda-forge::python=3.9
-  - conda-forge::notebook=6.4.12
+  - conda-forge::notebook
+  - conda-forge::xarray
   - conda-forge::netcdf4
+  - conda-forge::shapely
   - conda-forge::matplotlib
   - conda-forge::cartopy
   - conda-forge::jupyter_contrib_nbextensions
   - conda-forge::ipywidgets
+  - conda-forge::scikit-image
+  - conda-forge::plotly
+  - conda-forge::bokeh
   - conda-forge::ipykernel
   - conda-forge::cmocean
   - conda-forge::cmcrameri
-  - conda-forge::requests
-  - conda-forge::xarray
+  - cmts::hda
+  - cmts::eumartools
+  - eumetsat::eumdac
