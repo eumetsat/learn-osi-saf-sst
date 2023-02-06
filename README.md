@@ -1,4 +1,4 @@
-# Learn OSI-SAF SST
+# Learn OSI SAF SST
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.eumetsat.int%2Feumetlab%2Foceans%2Focean-training%2Fsensors%2Flearn-osi-saf-sst/HEAD?urlpath=%2Ftree%2FIndex.ipynb)
 
@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)
 
 The **learn-osi-saf-sst** module consists of a collection of python-based Jupyter-notebooks 
-design to demonstrate the use of the sea surface temperature products within the OSI-SAF catalogue, 
+design to demonstrate the use of the sea surface temperature products within the OSI SAF catalogue, 
 and to help users begin to work with them.
 
 For any questions about this repository, please contact ops@eumetsat.int.
@@ -17,7 +17,7 @@ For any questions about this repository, please contact ops@eumetsat.int.
  
 This code is licensed under an MIT license. See file LICENSE.txt for details on 
 the usage and distribution terms. No dependencies are distributed as part of 
-this package. Copyright EUMETSAT 2022.
+this package. Copyright EUMETSAT 2023.
 
 All product names, logos, and brands are property of their respective owners. 
 All company, product and service names used in this website are for identification 
