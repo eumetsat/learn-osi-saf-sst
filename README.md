@@ -39,7 +39,6 @@ You will require `Jupyter Notebook` to run this code. We recommend that you inst
 the latest [Anaconda Python distribution](https://www.anaconda.com/) for your 
 operating system. Anaconda Python distributions include Jupyter Notebook.
 
-
 ## Dependencies
 
 |item|version|licence|package info|
@@ -105,7 +104,6 @@ To create the environment, run:
 
 `conda env create -f environment.yml`
 
-
 This will create a Python environment called **cmts_learn_osi_saf_sst**. The environment 
 won't be activated by default. To activate it, run:
 
@@ -154,7 +152,6 @@ need help, or you have found something that doesn't work, then please contact us
 at ops@eumetsat.int. We welcome your feedback!
 
 <hr>
-<hr>
 
 ### Overview for advanced users
 
@@ -166,10 +163,6 @@ at ops@eumetsat.int. We welcome your feedback!
 
 `conda env create -f environment.yml` \
 `conda activate cmts_learn_osi_saf_sst`
-
-**WEkEO SPECIFIC**
-
-`ipython kernel install --user --name=cmts_learn_osi_saf_sst`
 
 **Activate extensions (1st run in environment, only)**
 
