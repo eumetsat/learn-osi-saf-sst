@@ -10,6 +10,7 @@ dependencies:
   - conda-forge::matplotlib
   - conda-forge::cartopy
   - conda-forge::ipywidgets
+  - conda-forge::jupyter_nbextensions_configurator
   - conda-forge::ipykernel
   - conda-forge::cmocean
   - conda-forge::cmcrameri
