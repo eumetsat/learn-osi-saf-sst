@@ -44,17 +44,17 @@ operating system. Anaconda Python distributions include Jupyter Notebook.
 |item|version|licence|package info|
 |---|---|---|---|
 |python|3.9|PSF|https://docs.python.org/3/license.html|
+|jupyterlab|4.0.2|BSD-3|https://anaconda.org/conda-forge/jupyterlab|
 |netcdf4|1.5.8|MIT|https://anaconda.org/conda-forge/netcdf4|
 |matplotlib|3.5.1|PSFL|https://matplotlib.org/stable/users/project/license.html|
-|xarray|0.21.1|Apache-2.0|https://anaconda.org/conda-forge/xarray|
 |cartopy|0.20.2|LGPL-3|https://scitools.org.uk/cartopy/docs/latest/copyright.html|
-|jupyterlab|3.4.4|BSD-3|https://anaconda.org/conda-forge/jupyterlab|
-|jupyter_nbextensions_configurator|0.6.1|BSD-3|https://anaconda.org/conda-forge/jupyter_nbextensions_configurator|
 |ipywidgets|7.6.5|BSD-3|https://anaconda.org/conda-forge/ipywidgets|
+|jupyter_nbextensions_configurator|0.6.1|BSD-3|https://anaconda.org/conda-forge/jupyter_nbextensions_configurator|
 |ipykernel|6.4.1|BSD-3|https://anaconda.org/conda-forge/ipykernel|
 |cmocean|2.0|MIT|https://anaconda.org/conda-forge/cmocean|
 |cmcrameri|1.4|MIT|https://anaconda.org/conda-forge/cmcrameri|
 |requests|2.28.1|Apache-2.0|https://anaconda.org/conda-forge/requests|
+|xarray|0.21.1|Apache-2.0|https://anaconda.org/conda-forge/xarray|
 
 ## Installation
 
@@ -119,20 +119,12 @@ new window instance*
 This module is based around a series of [Jupyter Notebooks](https://jupyter.org/). These support high-level interactive learning by allowing us to combine code, text description and data visualisations. If you have not worked with `Jupyter Notebooks` 
 before, please look at the [Introduction to Python and Project Jupyter](./working-with-python/Intro_to_Python_and_Jupyter.ipynb) module to get a short introduction to their usage and benefits.
 
-To to run Jupyter Notebook, open a terminal or Anaconda prompt and make sure you have activated 
+To run Jupyter Notebook, open a terminal or Anaconda prompt and make sure you have activated 
 the correct environment. Again, navigate to the repository folder.
-
-If you are running this code for the first time in this environment, you need to enable two
-`extensions` to Jupyter by running the following commands.
-
-`jupyter nbextension enable --py widgetsnbextension` \
-`jupyter nbextension enable exercise2/main`
-
-*Note: you can also enable these in the **Nbextensions** tab of the Jupyter browser window* 
 
 Now you can run Jupyter using:
 
-`jupyter notebook` or `jupyter-notebook`, depending on your operating system.
+`jupyter lab` or `jupyter-lab`, depending on your operating system.
 
 This should open Jupyter Notebooks in a browser window. On occasion, Jupyter may not
 be able to open a window and will give you a URL to past in your browser. Please do
@@ -166,4 +158,4 @@ at ops@eumetsat.int. We welcome your feedback!
 
 **Run**
 
-`jupyter lab`
+`jupyter lab` or `jupyter-lab`
