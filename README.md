@@ -27,6 +27,7 @@ purposes only.
 
 * [**Olivier Membrive**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
 * [**Cécile Hernandez**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
+* [**Lou-Anne Quellet**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
 * [**Gwenaël Le Bras**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
 * [**Stéphane Saux Picart**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
 * [**Ben Loveday**](mailto://ops@eumetsat.int) - [EUMETSAT](http://www.eumetsat.int)
