@@ -3,6 +3,8 @@
 name: cmts_learn_osi_saf_sst
 channels:
   - conda-forge
+  - cmts
+  - eumetsat
 dependencies:
   - conda-forge::python
   - conda-forge::jupyterlab
