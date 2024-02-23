@@ -27,6 +27,7 @@ purposes only.
 
 * [**Olivier Membrive**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
 * [**Cécile Hernandez**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
+* [**Gwenaël Le Bras**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
 * [**Stéphane Saux Picart**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
 * [**Ben Loveday**](mailto://ops@eumetsat.int) - [EUMETSAT](http://www.eumetsat.int)
 * [**Hayley Evers-King**](mailto://ops@eumetsat.int) - [EUMETSAT](http://www.eumetsat.int)
@@ -44,17 +45,19 @@ operating system. Anaconda Python distributions include Jupyter Notebook.
 |item|version|licence|package info|
 |---|---|---|---|
 |python|3.9|PSF|https://docs.python.org/3/license.html|
-|jupyterlab|4.0.2|BSD-3|https://anaconda.org/conda-forge/jupyterlab|
 |netcdf4|1.5.8|MIT|https://anaconda.org/conda-forge/netcdf4|
 |matplotlib|3.5.1|PSFL|https://matplotlib.org/stable/users/project/license.html|
+|xarray|0.21.1|Apache-2.0|https://anaconda.org/conda-forge/xarray|
 |cartopy|0.20.2|LGPL-3|https://scitools.org.uk/cartopy/docs/latest/copyright.html|
-|ipywidgets|7.6.5|BSD-3|https://anaconda.org/conda-forge/ipywidgets|
+|jupyterlab|3.4.4|BSD-3|https://anaconda.org/conda-forge/jupyterlab|
 |jupyter_nbextensions_configurator|0.6.1|BSD-3|https://anaconda.org/conda-forge/jupyter_nbextensions_configurator|
+|ipywidgets|7.6.5|BSD-3|https://anaconda.org/conda-forge/ipywidgets|
 |ipykernel|6.4.1|BSD-3|https://anaconda.org/conda-forge/ipykernel|
 |cmocean|2.0|MIT|https://anaconda.org/conda-forge/cmocean|
 |cmcrameri|1.4|MIT|https://anaconda.org/conda-forge/cmcrameri|
 |requests|2.28.1|Apache-2.0|https://anaconda.org/conda-forge/requests|
-|xarray|0.21.1|Apache-2.0|https://anaconda.org/conda-forge/xarray|
+|pydap|
+|eumdac|
 
 ## Installation
 
@@ -100,15 +103,9 @@ in the **Installation** section above. In this folder there is a file called
 **environment.yml**. This contains all the information we need to install the relevant 
 packages.
 
-The conda package manager can be very slow, so we will install a new "solver" that 
-speeds things up. To do this, from the Anaconda prompt (Windows) or in the terminal (OSx/Linux) 
-you can run:
+To create the environment, run:
 
-`conda install -n base conda-libmamba-solver`
-
-Once the line above is run, to create out Python environment, we run:
-
-`conda env create -f environment.yml --solver=libmamba`
+`conda env create -f environment.yml`
 
 This will create a Python environment called **cmts_learn_osi_saf_sst**. The environment 
 won't be activated by default. To activate it, run:
@@ -120,18 +117,25 @@ Now you are ready to go!
 *Note: remember that you may need to reactivate the environment in every 
 new window instance*
 
-*Note: if you get a warning that "solver" is not a valid conda argument, you can 
-skip the libmamba install and run:* `conda env create -f environment.yml`
-
 ### Running Jupyter Notebook
 
 This module is based around a series of [Jupyter Notebooks](https://jupyter.org/). These support high-level interactive learning by allowing us to combine code, text description and data visualisations. If you have not worked with `Jupyter Notebooks` 
 before, please look at the [Introduction to Python and Project Jupyter](./working-with-python/Intro_to_Python_and_Jupyter.ipynb) module to get a short introduction to their usage and benefits.
 
-To run Jupyter Notebook, open a terminal or Anaconda prompt and make sure you have activated 
-the correct environment. Again, navigate to the repository folder. Now you can run Jupyter using:
+To to run Jupyter Notebook, open a terminal or Anaconda prompt and make sure you have activated 
+the correct environment. Again, navigate to the repository folder.
 
-`jupyter lab` or `jupyter-lab`, depending on your operating system.
+If you are running this code for the first time in this environment, you need to enable two
+`extensions` to Jupyter by running the following commands.
+
+`jupyter nbextension enable --py widgetsnbextension` \
+`jupyter nbextension enable exercise2/main`
+
+*Note: you can also enable these in the **Nbextensions** tab of the Jupyter browser window* 
+
+Now you can run Jupyter using:
+
+`jupyter notebook` or `jupyter-notebook`, depending on your operating system.
 
 This should open Jupyter Notebooks in a browser window. On occasion, Jupyter may not
 be able to open a window and will give you a URL to past in your browser. Please do
@@ -151,4 +155,18 @@ need help, or you have found something that doesn't work, then please contact us
 at ops@eumetsat.int. We welcome your feedback!
 
 <hr>
-<hr>
+
+### Overview for advanced users
+
+**Installation:**
+
+`git clone --recurse-submodules --remote-submodules https://gitlab.eumetsat.int/eumetlab/oceans/ocean-training/sensors/learn-osi-saf-sst.git`
+
+**Create and set environment**
+
+`conda env create -f environment.yml` \
+`conda activate cmts_learn_osi_saf_sst`
+
+**Run**
+
+`jupyter lab`
