@@ -1,10 +1,12 @@
-# copyright: 2023 EUMETSAT
+# copyright: 2024 EUMETSAT
 # license: LICENSE.txt
 name: cmts_learn_osi_saf_sst
 channels:
   - conda-forge
+  - cmts
+  - eumetsat
 dependencies:
-  - conda-forge::python=3.9
+  - conda-forge::python
   - conda-forge::jupyterlab
   - conda-forge::netcdf4
   - conda-forge::matplotlib
@@ -16,3 +18,5 @@ dependencies:
   - conda-forge::cmcrameri
   - conda-forge::requests
   - conda-forge::xarray
+  - conda-forge::pydap
+  - eumetsat::eumdac

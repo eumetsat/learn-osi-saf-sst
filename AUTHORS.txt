@@ -1,9 +1,11 @@
 # Copyright holder
-copyright: 2023 EUMETSAT
+copyright: 2024 EUMETSAT
 license: LICENSE.txt
 
 # List of development authors
 Olivier Membrive (Météo-France)
+Gwenaël Le Bras (Météo-France)
+Lou-Anne Quellet (Météo-France)
 
 # List of contributory authors
 Cécile Hernandez (Météo-France)
