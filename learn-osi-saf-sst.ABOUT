@@ -1,9 +1,9 @@
 # Component information
 name: learn-osi-saf-sst
 description: Compendium of training content associated with the OSI SAF sea surface temperature catalogue
-copyright: 2023 EUMETSAT
+copyright: 2024 EUMETSAT
 license_spdx: MIT
-date: 06-02-2024
+date: 01.03.2024
 home_url: https://gitlab.eumetsat.int/eumetlab/ocean/sensors/learn-osi-saf-sst
  
 # Package IPR documentation
