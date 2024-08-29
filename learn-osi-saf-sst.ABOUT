@@ -18,16 +18,16 @@ about_resource: ./1_OSI_SAF_sst_introductory/1_2_OSI_SAF_SST_file_structure.ipyn
 about_resource: ./1_OSI_SAF_sst_introductory/1_3a_OSI_SAF_SST_mapping_Metop_Metagranules.ipynb
 about_resource: ./1_OSI_SAF_sst_introductory/1_3b_OSI_SAF_SST_mapping_Global_Metop_SST.ipynb
 about_resource: ./1_OSI_SAF_sst_introductory/1_3c_OSI_SAF_SST_mapping_Geo_SST.ipynb
-about_resource: ./1_OSI_SAF_sst_introductory/1_3c_OSI_SAF_SST_mapping_NAR.ipynb
-about_resource: ./1_OSI_SAF_sst_introductory/1_3c_OSI_SAF_SST_mapping_Metop_IASI.ipynb
-
+about_resource: ./1_OSI_SAF_sst_introductory/1_3d_OSI_SAF_SST_mapping_NAR.ipynb
+about_resource: ./1_OSI_SAF_sst_introductory/1_3e_OSI_SAF_SST_mapping_Metop_IASI.ipynb
 about_resource: ./img/thumbs/1_1a_OSI_SAF_SST_data_access_IFREMER_Opensearch_thumb.png
 about_resource: ./img/thumbs/1_1b_OSI_SAF_SST_data_access_IFREMER_FTP_thumb.png
 about_resource: ./img/thumbs/1_2_OSI_SAF_SST_file_structure_thumb.png
 about_resource: ./img/thumbs/1_3a_OSI_SAF_SST_mapping_Metop_Metagranules_thumb.png
 about_resource: ./img/thumbs/1_3b_OSI_SAF_SST_mapping_Global_Metop_SST_thumb.png
 about_resource: ./img/thumbs/1_3c_OSI_SAF_SST_mapping_MSG_SST_thumb.png
-
+about_resource: ./img/thumbs/1_3d_OSI_SAF_SST_mapping_NAR_thumb.png
+about_resource: ./img/thumbs/1_3e_OSI_SAF_SST_mapping_Metop_IASI_thumb.png
 about_resource: AUTHORS.txt
 about_resource: Index.ipynb
 about_resource: LICENSE.txt
