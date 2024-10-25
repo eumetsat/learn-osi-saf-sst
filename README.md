@@ -1,13 +1,16 @@
 # Learn OSI SAF SST
 
+<hr>
+
+[![Python](https://img.shields.io/badge/python%203.10-anaconda-green)](https://www.anaconda.com/products/distribution)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.eumetsat.int%2Feumetlab%2Foceans%2Focean-training%2Fsensors%2Flearn-osi-saf-sst/HEAD?labpath=Index.ipynb)
 
 <hr>
 
-[![Python](https://img.shields.io/badge/python-anaconda-blue)](https://www.anaconda.com/products/distribution)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)
+## Overview
 
-The **learn-osi-saf-sst** module consists of a collection of python-based Jupyter-notebooks 
+The **learn-osi-saf-sst** module consists of a collection of Python-based Jupyter Notebooks  
 design to demonstrate the use of the sea surface temperature products within the OSI SAF catalogue, 
 and to help users begin to work with them.
 
@@ -58,6 +61,10 @@ operating system. Anaconda Python distributions include Jupyter Notebook.
 |eumdac|2.2.1|MIT|https://anaconda.org/eumetsat/eumdac|
 |cmcrameri|1.8|MIT|https://anaconda.org/conda-forge/cmcrameri|
 
+## Included components
+
+None
+
 ## Installation
 
 The simplest and best way to install these packages is via Git. Users can clone this 
@@ -78,7 +85,12 @@ This will make a local copy of all the relevant files.
 *Note: If you find that you are missing packages, you should check that you ran 
 `git clone` with both the `--recurse-submodules` and `--remote-submodules` options.*
 
-*Note: if you are using an older version of git, you may find that your submodules are empty. In this case, you need to remove the folder and re-run the line above with `--recursive` added to the end*
+*Note: if you are using an older version of git, you may find that your submodules are empty. 
+In this case, you need to remove the folder and re-run the line above with `--recursive` added to the end*
+
+*Note: in some rare Anaconda instances, Git is not installed by default. To correct 
+this, you can install Git using `conda install git` from the Anaconda prompt (Windows) 
+or in your terminal (OSx/Linux).*
 
 ## Usage
 
@@ -102,7 +114,7 @@ in the **Installation** section above. In this folder there is a file called
 **environment.yml**. This contains all the information we need to install the relevant 
 packages.
 
-The conda package manager can be very slow, so we will install a new "solver" that 
+Older versions of the conda package manager can be very slow, so we will install a new "solver" that 
 speeds things up. To do this, from the Anaconda prompt (Windows) or in the terminal (OSx/Linux) 
 you can run:
 
@@ -125,25 +137,49 @@ new window instance*
 *Note: if you get a warning that "solver" is not a valid conda argument, you can 
 skip the libmamba install and run:* `conda env create -f environment.yml`
 
-### Running Jupyter Notebook
+*Note: as you need to install libmamba solver in the conda base environment, this may not always be
+possible on cloud systems.*
 
-This module is based around a series of [Jupyter Notebooks](https://jupyter.org/). These support high-level interactive learning by allowing us to combine code, text description and data visualisations. If you have not worked with `Jupyter Notebooks` 
-before, please look at the [Introduction to Python and Project Jupyter](./working-with-python/Intro_to_Python_and_Jupyter.ipynb) module to get a short introduction to their usage and benefits.
+### Running Jupyter Lab
+
+This module is based around a series of [Jupyter Notebooks](https://jupyter.org/), designed to be run in Jupyter Lab. 
+Jupyter Notebooks support high-level interactive learning by allowing us to combine code, text description and data 
+visualisations. If you have not worked with `Jupyter Notebooks` before, please look at the [Introduction to Python 
+and Project Jupyter](./working-with-python/Intro_to_Python_and_Jupyter.ipynb) module to get a short introduction to 
+their usage and benefits.
 
 To run Jupyter Notebook, open a terminal or Anaconda prompt and make sure you have activated 
 the correct environment. Again, navigate to the repository folder. Now you can run Jupyter using:
 
 `jupyter lab` or `jupyter-lab`, depending on your operating system.
 
-This should open Jupyter Notebooks in a browser window. On occasion, Jupyter may not
+This should open Jupyter Lab in a browser window. On occasion, Jupyter may not
 be able to open a window and will give you a URL to past in your browser. Please do
 so, if required.
 
-*Note: Jupyter Notebook is not able to find modules that are 'above' it in a directory 
+*Note: Jupyter Lab is not able to find antyhing that is 'above' it in a directory 
 tree, and you will unable to navigate to these. So make sure you run the line above 
 from the correct directory!*
 
 Now you can run the notebooks! We recommend you start with the [Index](./Index.ipynb) module.
+
+### Running on cloud platforms
+
+If you are running on a remote Jupyter Hub (e.g. WEkEO or Insula) you will need to perform some additional steps to 
+ensure that you have the right python environment loaded in your notebook. When running locally, as long you have activated 
+the correct environment, Jupyter will load it into your the "kernel" which runs your code by default. On cloud systems, we 
+have to add the kernel to the system and apply it manually when we run.
+
+To add an environment to a kernel you should first build the environment and activate it as described above. Once you have 
+done this, you can add your environment to a kernel from the command line as follows:
+
+`python -m ipykernel install --name cmts_learn_osi_saf_sst --user`
+
+You should now be able to select the kernel from the menu bar in the top right hand side of any notebook you run.
+
+*Note: it sometimes takes a few seconds for the kernel to register in the notebook itself*
+
+*Note: the above does not apply to Binder, which will load the environment supplied with the Git repository*
 
 ### Collaborating, contributing and issues
 
