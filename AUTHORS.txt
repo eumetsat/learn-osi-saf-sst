@@ -1,15 +1,16 @@
 # Copyright holder
-copyright: 2024 EUMETSAT
+copyright: 2025 EUMETSAT
 license: LICENSE.txt
 
 # List of development authors
-Olivier Membrive (Météo-France)
-Gwenaël Le Bras (Météo-France)
-Lou-Anne Quellet (Météo-France)
+Olivier Membrive (Météo-France/OSI SAF)
+Gwenaël Le Bras (Météo-France/OSI SAF)
+Lou-Anne Quellet (Météo-France/OSI SAF)
+Ewen Allain (Météo-France/OSI SAF)
 
 # List of contributory authors
-Cécile Hernandez (Météo-France)
-Stéphane Saux Picart (Météo-France)
+Cécile Hernandez (Météo-France/OSI SAF)
+Stéphane Saux Picart (Météo-France/OSI SAF)
 Ben Loveday (Innoflair UG/EUMETSAT)
 Hayley Evers-King (EUMETSAT)
 

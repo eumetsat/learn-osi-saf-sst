@@ -30,11 +30,12 @@ purposes only.
 
 ## Authors
 
-* [**Olivier Membrive**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
-* [**Cécile Hernandez**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
-* [**Lou-Anne Quellet**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
-* [**Gwenaël Le Bras**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
-* [**Stéphane Saux Picart**](mailto://osi-saf.manager@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
+* [**Olivier Membrive**](mailto://osi-saf.eumetsat@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
+* [**Gwenaël Le Bras**](mailto://osi-saf.eumetsat@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
+* [**Lou-Anne Quellet**](mailto://osi-saf.eumetsat@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
+* [**Ewen Allain**](mailto://osi-saf.eumetsat@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
+* [**Cécile Hernandez**](mailto://osi-saf.eumetsat@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
+* [**Stéphane Saux Picart**](mailto://osi-saf.eumetsat@meteo.fr) - [OSI SAF](https://osi-saf.eumetsat.int)
 * [**Ben Loveday**](mailto://ops@eumetsat.int) - [EUMETSAT](http://www.eumetsat.int)
 * [**Hayley Evers-King**](mailto://ops@eumetsat.int) - [EUMETSAT](http://www.eumetsat.int)
 

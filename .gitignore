@@ -35,4 +35,7 @@ wheels/
 
 # Repo specific
 1_OSI_SAF_sst_introductory/*.png
-2_OSI_SAF_sst_advanced/*.png
+2_OSI_SAF_sst_use_case/*.png
+
+# Climatology for anomaly use case
+!D181-ESACCI-L4_GHRSST-SSTdepth-Climatology-GLOB_CDR3.0-v02.0-fv01.0.nc
